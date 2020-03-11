@@ -23,6 +23,7 @@ func upload(w http.ResponseWriter, r *http.Request) {
 		<br>
 		Be mindful that the uploaded files should have the same extension.
 		<br>
+
 		<form action="/upload" method="POST" enctype="multipart/form-data">
 			<input type="file" name="files" multiple><br>
 			<input type="text" name="counter"><br>
